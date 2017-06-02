@@ -2,6 +2,16 @@
 
 Coders’ typeface, built from code.
 
+This is José Soltren's fork, built to closely mimic the classic [X Windows "Fixed" font](http://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html). On my system, 11-point "light" comes closest to Fixed 5x7. I've tweaked the width and changed some characters to get things to (mostly) line up.
+
+To build José's version, simply run:
+
+$ ./build.sh
+
+, and find output in ./dist/iosevka-jose/ttf/.
+
+Please read on for the original README from upstream.
+
 ![](https://raw.githubusercontent.com/be5invis/Iosevka/master/images/preview-all.png)
 
 Chinese and Japanese users → [Inziu Iosevka for Chinese and Japanese.](http://be5invis.github.io/Iosevka/inziu.html) (A **hinted** Composite with M+ and Source Han Sans.)
